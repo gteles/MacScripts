@@ -7,8 +7,6 @@ SelfProtectionLevel=2
 
 VenueZone=ZONE_NAME
 
-LogLevel=#'> /private/tmp/Cylance/cyagent_install_token
-
 sudo installer -pkg /private/tmp/Cylance/CylancePROTECT.pkg -target /
 
 rm -rf /private/tmp/Cylance
