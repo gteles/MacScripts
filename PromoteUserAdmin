@@ -1,2 +1,2 @@
-sudo /usr/sbin/dseditgroup -o edit -a shortname -t user admin
+sudo dseditgroup -o edit -a "${username}" -t user admin
 
